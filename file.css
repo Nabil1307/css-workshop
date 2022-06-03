@@ -1,0 +1,74 @@
+header{
+    background-color: gray;
+    position: fixed;
+    width:100%;
+    top:0;  
+    left:0;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+ul li {list-style:none}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width:30%
+}
+ul a {
+    text-decoration: none;
+    color:white;
+    font-size:25px
+}
+main{
+  
+    display: flex;
+    flex-direction: column;
+    margin:100px auto 0px auto;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.content-video{
+    padding-top:100px;
+}
+button{
+    border:none;
+    font-size:30px
+}
+button:hover{
+    background-color:blue
+}
+.card{
+    width:400px;
+    text-align: center;
+    margin-top:20px;
+
+
+}
+.cards{
+    padding-top:50px;
+    width:900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:100px auto 0px auto;
+    border-radius:15px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+footer{
+    margin-top:40px;
+    text-align: center;
+}
+.dropdown-list{
+    display:none;
+    position:absolute;
+    top:255px;
+}
+.dropdown:hover .dropdown-list{
+    display:flex;
+    flex-direction: column;
+    background-color:gray;
+}
